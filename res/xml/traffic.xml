@@ -46,7 +46,7 @@
         android:dependency="network_traffic_state"
         android:defaultValue="false" />
 
-    <com.miku.settings.preferences.CustomSeekBarPreference
+    <com.hmod.settings.preferences.CustomSeekBarPreference
         android:key="network_traffic_font_size"
         android:title="@string/nettraf_font_size"
         android:max="60"
