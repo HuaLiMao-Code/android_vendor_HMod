@@ -46,8 +46,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-import com.hmod.settings.preferences.CustomSeekBarPreference;
-import com.hmod.settings.preferences.SystemSettingSwitchPreference;
+import com.hmod.exsettings.preferences.CustomSeekBarPreference;
+import com.hmod.exsettings.preferences.SystemSettingSwitchPreference;
 
 public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 

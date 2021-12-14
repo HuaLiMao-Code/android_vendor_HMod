@@ -38,7 +38,7 @@ public class HModSettings extends SettingsPreferenceFragment {
         final String KEY_DEVICE_PART = "device_part";
         final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
 
-        addPreferencesFromResource(R.xml.miku_settings);
+        addPreferencesFromResource(R.xml.hmod_settings);
 
         // DeviceParts
         if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
@@ -48,7 +48,7 @@ public class HModSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.MIKU;
+        return MetricsProto.MetricsEvent.HMOD;
     }
 
     public static void lockCurrentOrientation(Activity activity) {
